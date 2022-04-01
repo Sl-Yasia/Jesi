@@ -19,8 +19,8 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './queenjesi.db' : proce
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v2.0.0 Public Stable',
-    CHANNEL: 'https://t.me/SLYASIYA',
+    VERSION: 'v2.0.0 Public',
+    CHANNEL: 'https://t.me/ya_s_i_y_a',
     SESSION: process.env.A_JESI_SESSION === undefined ? '' : process.env.A_JESI_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     ANTILINKMSG: process.env.ANTILINK_MESSAGE === undefined ? 'default' : process.env.ANTILINK_MESSAGE,
@@ -73,8 +73,8 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "94741745737-1612300121",
-    SUPPORT2: "94741745737-1617736751",
-    SUPPORT3: "94741745737-1621015274",
-    SUPPORT4: "94741745737-1625319286"
+    SUPPORT: "94741745737-94758340463",
+    SUPPORT2: "94741745737-94758340463",
+    SUPPORT3: "94741745737-94758340463",
+    SUPPORT4: "94741745737-94758340463"
 };
