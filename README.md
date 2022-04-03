@@ -4,7 +4,7 @@
 <div align="center">
   <img border-radius: 15px src="https://i.imgur.com/Zh5BX2B.jpg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="Jesi" src="https://img.shields.io/badge/Queen-Jesi-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Jesi" src="https://img.shields.io/badge/Jesi-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/Sl-Yasia"><img title="Author" src="https://img.shields.io/badge/Author-Sl/Yasiya-Jesi?color=blue&style=for-the-badge&logo=whatsapp"></a>
@@ -36,7 +36,7 @@ Project created by <a href="https://github.com/Sl-Yasia">Sl-Yasia</a> to make it
 
 ### Simple Method
 
-[![Run on Repl.it](https://repl.it/badge/github/Sl-Yasia/Queen-Jesi)](https://replit.com/@Yasiya/Jesi)
+[![Run on Repl.it](https://repl.it/badge/github/Sl-Yasia/Jesi)](https://replit.com/@Yasiya/Jesi)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sl-Yasia/Jesi)
 
