@@ -1,29 +1,29 @@
 {
-  "name": "Queen-Jesi",
+  "name": "Jesi",
   "version": "2.0.0",
-  "description": "QueenJesi project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./Queen-Jesi/jesi.js",
+  "description": "Jesi project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "main": "./Jesi/jesi.js",
   "scripts": {
     "start": "supervisor -s jesi.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sl-Yasia/Queen-Jesi.git"
+    "url": "git+https://github.com/Sl-Yasia/Jesi.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
     "jesi",
-    "QueenJesi"
+    "Jesi"
   ],
   "author": "Sl-Yasia",
   "developer": "YR Tech",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Sl-Yasia/Queen-Jesi/issues"
+    "url": "https://github.com/Sl-Yasia/Jesi/issues"
   },
-  "homepage": "https://github.com/Sl-Yasia/Queen-Jesi#readme",
+  "homepage": "https://github.com/Sl-Yasia/Jesi#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "network-speed": "2.1.1",
