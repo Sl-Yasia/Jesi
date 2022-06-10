@@ -38,7 +38,7 @@ Project created by <a href="https://github.com/Sl-Yasia">Sl-Yasia</a> to make it
 
 [![Run on Repl.it](https://repl.it/badge/github/Sl-Yasia/Jesi)](https://replit.com/@Yasiya/Jesi)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sl-Yasia/Jesi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sl-Yasia/whatsapp-bot-md)
 
 ## F.A.Q
 Answer a few frequently asked questions;
